@@ -17,7 +17,7 @@ function setCardType(type) {
   ccLogo.setAttribute("src", `cc-${type}.svg`)
 }
 
-setCardType("mastercard")
+setCardType("default")
 
 globalThis.setCardType = setCardType
 
